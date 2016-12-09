@@ -781,7 +781,7 @@ declare namespace R {
          * See if an object (`val`) is an instance of the supplied constructor.
          * This function will check up the inheritance chain, if any.
          */
-        is<T>(type: { new(): T })(obj: any) => obj is T;
+        is<T>(type: { new(): T }):(obj: any) => obj is T;
         is<T>(type: { new(): T }, obj: any): obj is T;
 
         /**
