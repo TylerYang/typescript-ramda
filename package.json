@@ -1,6 +1,6 @@
 {
   "name": "typescript-ramda",
-  "version": "0.21.1",
+  "version": "0.21.2",
   "scripts": {
       "test": "tsc --lib \"es5,es2015.promise\" --module amd ramda-tests.ts"
   },
